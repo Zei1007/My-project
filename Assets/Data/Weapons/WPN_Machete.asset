@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65506c31013bf3a4a9ba6c1f705739e4, type: 3}
+  m_Name: WPN_Machete
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieShooter.WeaponDefinition
+  id: machete
+  displayName: Machete Sweep
+  description: Cuts everything within reach on a steady rhythm.
+  icon: {fileID: 0}
+  worldSprite: {fileID: 21300000, guid: 2f4047d1de603044299b7cb74f3424a2, type: 3}
+  tint: {r: 0.85, g: 0.4, b: 0.9, a: 1}
+  category: 2
+  rangeClass: 0
+  autoTarget: 1
+  projectilePrefab: {fileID: 0}
+  effectPrefab: {fileID: 1253882579818133123, guid: 5f79840df63ad0a47907d9ec643fc68f, type: 3}
+  levels:
+  - upgradeText: 
+    damage: 14
+    fireRate: 0.9
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 0
+    range: 2
+    projectileSpeed: 0
+    areaSize: 1.6
+    critChance: 0
+    knockback: 2.5
+  - upgradeText: +45% area
+    damage: 14
+    fireRate: 0.9
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 0
+    range: 2
+    projectileSpeed: 0
+    areaSize: 2.3
+    critChance: 0
+    knockback: 2.5
+  - upgradeText: +60% damage
+    damage: 22
+    fireRate: 1
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 0
+    range: 2
+    projectileSpeed: 0
+    areaSize: 2.3
+    critChance: 0
+    knockback: 3
+  - upgradeText: Swings more often
+    damage: 22
+    fireRate: 1.4
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 0
+    range: 2
+    projectileSpeed: 0
+    areaSize: 2.6
+    critChance: 0
+    knockback: 3
+  - upgradeText: Huge reach, heavy knockback
+    damage: 30
+    fireRate: 1.5
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 0
+    range: 2
+    projectileSpeed: 0
+    areaSize: 3.3
+    critChance: 0
+    knockback: 4.5
+  evolvesInto: {fileID: 0}
+  requiredBuff: {fileID: 0}

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65506c31013bf3a4a9ba6c1f705739e4, type: 3}
+  m_Name: WPN_SMG
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieShooter.WeaponDefinition
+  id: smg
+  displayName: SMG
+  description: A rattling spray. Low damage, very high rate of fire.
+  icon: {fileID: 0}
+  worldSprite: {fileID: 21300000, guid: c614613327f7fa24fa489fe7b3d07809, type: 3}
+  tint: {r: 0.62, g: 0.86, b: 1, a: 1}
+  category: 1
+  rangeClass: 1
+  autoTarget: 1
+  projectilePrefab: {fileID: 6909523801030278979, guid: 2b57daa88562bea4ebeb4830467fa062, type: 3}
+  effectPrefab: {fileID: 8251051206755142051, guid: c8c341e49a99bc04b8f2c3039cae26ab, type: 3}
+  levels:
+  - upgradeText: 
+    damage: 5
+    fireRate: 7
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 8
+    range: 7
+    projectileSpeed: 19
+    areaSize: 1
+    critChance: 0
+    knockback: 0.1
+  - upgradeText: +40% fire rate
+    damage: 5
+    fireRate: 10
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 9
+    range: 7.42
+    projectileSpeed: 19
+    areaSize: 1
+    critChance: 0
+    knockback: 0.1
+  - upgradeText: +60% damage
+    damage: 8
+    fireRate: 10
+    projectileCount: 1
+    pierce: 0
+    spreadAngle: 9
+    range: 7.84
+    projectileSpeed: 19
+    areaSize: 1
+    critChance: 0
+    knockback: 0.1
+  - upgradeText: Rounds pierce 1
+    damage: 8
+    fireRate: 12
+    projectileCount: 1
+    pierce: 1
+    spreadAngle: 10
+    range: 8.26
+    projectileSpeed: 19
+    areaSize: 1
+    critChance: 0
+    knockback: 0.1
+  - upgradeText: Twin barrels
+    damage: 10
+    fireRate: 12
+    projectileCount: 2
+    pierce: 1
+    spreadAngle: 12
+    range: 8.68
+    projectileSpeed: 19
+    areaSize: 1
+    critChance: 0
+    knockback: 0.1
+  evolvesInto: {fileID: 0}
+  requiredBuff: {fileID: 0}

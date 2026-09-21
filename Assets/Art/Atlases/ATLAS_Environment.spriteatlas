@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ATLAS_Environment
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 4
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 875d0091388b09746b5a6003a117d190, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - ecd02b507fb257d4e8ec5485628d786d: 21300000
+    - 478b0b90ecb382b40954c8809dd78fdc: 21300000
+    - b46d58b0269e5554cb0bb279e86f65f4: 21300000
+    - 9220034189e1b53479a819fb113b6bae: 21300000
+    - e1fdae14705d84e4ead02528cadbcec3: 21300000
+    - 777b867439895c24480a0ff2c3cb4ce4: 21300000
+    - 2ef50b85514ba8c4fb3d4654b4977143: 21300000
+    - 129593e5256fbd24b89216a2d04b17d1: 21300000
+    - 2b36fd99b8a1e8f48b324ce44b1f86a1: 21300000
+    - e6f4f2c9fd936e843b1bf8773b7dae9b: 21300000
+    - 0e90d91d6eb64244c98cb5650e648343: 21300000
+    - 91dac22dcb5de7645ab37b0cd9cfc874: 21300000
+    - 4fce2b4e8828ad249b5bdad64e29c5c8: 21300000
+    - 11f8d76f2170d6440a881a4b7ed77b91: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_RenderDataMap: {}
+  m_Tag: ATLAS_Environment
+  m_IsVariant: 0
+  m_Guid: 506427fa026346947b1b3d80a87037fc

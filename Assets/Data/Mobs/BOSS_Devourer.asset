@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fe44ee61473bc47accc5f55d25c630, type: 3}
+  m_Name: BOSS_Devourer
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieShooter.BossDefinition
+  id: boss_devourer
+  displayName: The Devourer
+  tier: 4
+  parts:
+    head: {fileID: 21300000, guid: afaeb5b69c255184abca67f0762c11a0, type: 3}
+    torso: {fileID: 21300000, guid: 70cd2a22e8b433447bf3d138e95f6800, type: 3}
+    arm: {fileID: 21300000, guid: 11cb15e06915c8043bd43d7fb79071ac, type: 3}
+    leg: {fileID: 21300000, guid: 54b900fe586d9354cb6f46b32ef771ca, type: 3}
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  scale: 2.6
+  sprite: {fileID: 0}
+  health: 160
+  moveSpeed: 1.35
+  contactDamage: 20
+  attackInterval: 1.1
+  xpValue: 120
+  healthMultiplier: 14
+  damageMultiplier: 1.5
+  ability: 0
+  abilityCooldown: 5
+  abilityMagnitude: 3
+  abilityRadius: 2.5
+  showBossHealthBar: 1
+  isRanged: 0
+  preferredRange: 5
+  shotInterval: 2.4
+  projectileSpeed: 4
+  projectileDamageMultiplier: 0.8
+  projectileTint: {r: 0.55, g: 1, b: 0.35, a: 1}
+  projectilePrefab: {fileID: 0}
+  pickupDropChance: 1
+  loot:
+  - type: 0
+    chance: 1
+    count: 2
+  - type: 1
+    chance: 1
+    count: 1
+  - type: 2
+    chance: 1
+    count: 1
+  - type: 4
+    chance: 1
+    count: 1
+  - type: 3
+    chance: 1
+    count: 1
+  title: THE DEVOURER
+  introLine: The horde parts. Something worse walks through.
+  introDuration: 2.5
+  phases:
+  - phaseName: PHASE I  -  THE APPROACH
+    healthThreshold: 1
+    moveSpeedMultiplier: 1
+    damageMultiplier: 1
+    damageTakenMultiplier: 1
+    attackInterval: 4
+    attacks:
+    - type: 0
+      weight: 2
+      radius: 3.4
+      count: 12
+      windup: 1
+      damageMultiplier: 1.4
+    - type: 2
+      weight: 1
+      radius: 3.5
+      count: 4
+      windup: 0.8
+      damageMultiplier: 1.4
+    auraColor: {r: 0.55, g: 0.25, b: 0.85, a: 0.5}
+  - phaseName: PHASE II  -  THE HUNGER
+    healthThreshold: 0.66
+    moveSpeedMultiplier: 1.25
+    damageMultiplier: 1.15
+    damageTakenMultiplier: 1
+    attackInterval: 3
+    attacks:
+    - type: 0
+      weight: 1.5
+      radius: 3.8
+      count: 12
+      windup: 0.85
+      damageMultiplier: 1.4
+    - type: 1
+      weight: 1.5
+      radius: 3
+      count: 14
+      windup: 0.7
+      damageMultiplier: 0.8
+    - type: 3
+      weight: 1
+      radius: 4
+      count: 12
+      windup: 0.75
+      damageMultiplier: 1.6
+    - type: 2
+      weight: 0.8
+      radius: 3.5
+      count: 5
+      windup: 0.7
+      damageMultiplier: 1.4
+    auraColor: {r: 0.85, g: 0.35, b: 0.5, a: 0.55}
+  - phaseName: PHASE III  -  ENRAGED
+    healthThreshold: 0.33
+    moveSpeedMultiplier: 1.55
+    damageMultiplier: 1.35
+    damageTakenMultiplier: 1.1
+    attackInterval: 2.1
+    attacks:
+    - type: 1
+      weight: 2
+      radius: 3
+      count: 22
+      windup: 0.55
+      damageMultiplier: 0.85
+    - type: 0
+      weight: 1.5
+      radius: 4.2
+      count: 12
+      windup: 0.7
+      damageMultiplier: 1.5
+    - type: 4
+      weight: 1.5
+      radius: 2.2
+      count: 4
+      windup: 0.8
+      damageMultiplier: 1.2
+    - type: 3
+      weight: 1.2
+      radius: 5
+      count: 12
+      windup: 0.6
+      damageMultiplier: 1.7
+    auraColor: {r: 1, g: 0.35, b: 0.2, a: 0.6}
+  addDefinition: {fileID: 11400000, guid: 9de2bc34a5ae3b241ac0a8797c7e69dd, type: 2}
+  enemyProjectilePrefab: {fileID: 1012644964827502751, guid: 3f19b57e6936dbe4a98e017fde41ba5b, type: 3}
+  hazardPrefab: {fileID: 682710874714770360, guid: f3736cb4d84b89442a1ea2e1e65b9c6c, type: 3}

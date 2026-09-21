@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0b8654e27fe6340ae0350ff1a76f45, type: 3}
+  m_Name: BUF_Pierce
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieShooter.BuffDefinition
+  id: buff_pierce
+  displayName: Armor Piercing
+  description: Shots pass through 1 more zombie.
+  icon: {fileID: 0}
+  tint: {r: 0.45, g: 0.8, b: 1, a: 1}
+  isDebuff: 0
+  durationType: 0
+  duration: 10
+  maxStacks: 3
+  modifiers:
+  - stat: 7
+    op: 0
+    value: 1
+  pairedCurse: {fileID: 0}

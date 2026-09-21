@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ATLAS_FX
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 4
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 56653584e52bf4e4faa3d4fafd15642e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c5735e40b5f9dd346aa0109f03176e21: 21300000
+    - 6f851181ab350024d8d97e91e629eeb5: 21300000
+    - 5f8868b221c197b49be3f89e3f4acaba: 21300000
+    - 4429afd366a65f648890a72a9e85d234: 21300000
+    - afc62bd437ddcc24fbb56fb1b56ab1b8: 21300000
+    - 7194141604278c543ab35380490c397e: 21300000
+    - 7b805526ef0f7db4f80da4ee04081528: 21300000
+    - dadfcc284b6834d47b313cf0e4b366c6: 21300000
+    - 974e1b190d82b9c499f7f1e408b0dac3: 21300000
+    - b37d29cc9fe005a4780d498be0529b92: 21300000
+    - 6572c32dc6bd9da4ea796dd29f3961fd: 21300000
+    - c565faedffbfad94095a807bacdca331: 21300000
+    - 56fcc1ae306f0104e880e37f85b63641: 21300000
+    - cdaf03bebb3092947a1d0e6ae1952293: 21300000
+    - aba2c39fbcc59b946ae58d0dc5356c2e: 21300000
+    - 88b62bff60084fa4c9db86353be84f0d: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_RenderDataMap: {}
+  m_Tag: ATLAS_FX
+  m_IsVariant: 0
+  m_Guid: 0723e9678033ad04db7dc31fcc564d0d

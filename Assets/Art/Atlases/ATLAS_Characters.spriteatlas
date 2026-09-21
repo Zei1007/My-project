@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ATLAS_Characters
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 4
+      m_BuildTarget: Android
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4e9e627e851e4324590819a5458ff8f3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 30296a60c8cc5134a866258ac3b3d205: 21300000
+    - 860a0d603851d804083986f91d53783d: 21300000
+    - 509d4fb0b97f84c4da162a7ff44e7727: 21300000
+    - 11cb15e06915c8043bd43d7fb79071ac: 21300000
+    - 0763d101877f2d44eb8f79762055a471: 21300000
+    - b0f78141ef27fdb418748178041df4fb: 21300000
+    - 44b010518fdd3844ebab8058791fc222: 21300000
+    - 57e6e0915477c3745bff91e8c41e6a97: 21300000
+    - a3b6cf123b82d024a8e65ce4294b8ca8: 21300000
+    - 70cd2a22e8b433447bf3d138e95f6800: 21300000
+    - 1f749bf2752b86149867cb564bee5086: 21300000
+    - e93afb233d2ca764ab2a9da43f7e6ce8: 21300000
+    - dea00663de771044da3eda268e44611a: 21300000
+    - fe1218c3dca01884892e51a234045f28: 21300000
+    - 038d0934568414f4799b0e0dcef7befc: 21300000
+    - 88e9d264752b8194b8f34eaa19870706: 21300000
+    - bcf426a4aaedaaa47a9d946ed6121e2c: 21300000
+    - 35579fa5559b6c240a469c8f01dbcf78: 21300000
+    - 11e7809643533c44788d977be268a567: 21300000
+    - 00a16196c195eb34ca61a08e2ea92e14: 21300000
+    - afaeb5b69c255184abca67f0762c11a0: 21300000
+    - 563f4837f8dacd8408c049ceb2f0fbe0: 21300000
+    - 69afce590af5c7449933e4c34e68b545: 21300000
+    - 25e91df93acc97b489bb226322d41e99: 21300000
+    - 4fdc052ae38be0947bfc4c8d202c80dd: 21300000
+    - b60dee2a0bd82d84b94ae52663ec9d2b: 21300000
+    - f0feb57b129acfa48ab9bef9f78554ee: 21300000
+    - 8182bcfb6412f704cb7aec451e90033d: 21300000
+    - 9908621c297db7844aa15d618460a77f: 21300000
+    - ae335d4c7e7d33e42b181c85d5b6ed97: 21300000
+    - 6cf93d7c6c1a1b24b8f74822781cc644: 21300000
+    - 064dea2dd59646242ac8383acf80e515: 21300000
+    - f8cf3b9d6eac9274b8e62e697198e00d: 21300000
+    - a373adde5f297ec49aa5f2c4bfd4d9de: 21300000
+    - 54b900fe586d9354cb6f46b32ef771ca: 21300000
+    - a9e1623f28e2ac6479711709c6390ea1: 21300000
+    - 3728a47f4eff3f94d87c48dda3ae2fcb: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_RenderDataMap: {}
+  m_Tag: ATLAS_Characters
+  m_IsVariant: 0
+  m_Guid: 182b9c003a8d1bb45b72af34db92d04e

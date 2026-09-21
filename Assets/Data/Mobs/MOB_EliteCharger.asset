@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 748486a7c4cea56499b278e6910550ce, type: 3}
+  m_Name: MOB_EliteCharger
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieShooter.ZombieDefinition
+  id: elite_charger
+  displayName: Elite Charger
+  tier: 2
+  parts:
+    head: {fileID: 21300000, guid: 88e9d264752b8194b8f34eaa19870706, type: 3}
+    torso: {fileID: 21300000, guid: 69afce590af5c7449933e4c34e68b545, type: 3}
+    arm: {fileID: 21300000, guid: 35579fa5559b6c240a469c8f01dbcf78, type: 3}
+    leg: {fileID: 21300000, guid: 57e6e0915477c3745bff91e8c41e6a97, type: 3}
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  scale: 1.15
+  sprite: {fileID: 0}
+  health: 24
+  moveSpeed: 2.1
+  contactDamage: 10
+  attackInterval: 0.8
+  xpValue: 8
+  healthMultiplier: 4
+  damageMultiplier: 1.5
+  ability: 1
+  abilityCooldown: 4.5
+  abilityMagnitude: 3.5
+  abilityRadius: 2.5
+  showBossHealthBar: 0
+  isRanged: 0
+  preferredRange: 5
+  shotInterval: 2.4
+  projectileSpeed: 4
+  projectileDamageMultiplier: 0.8
+  projectileTint: {r: 0.55, g: 1, b: 0.35, a: 1}
+  projectilePrefab: {fileID: 0}
+  pickupDropChance: 0.25
+  loot:
+  - type: 0
+    chance: 0.45
+    count: 1
+  - type: 1
+    chance: 0.3
+    count: 1
+  - type: 3
+    chance: 0.25
+    count: 1
+  - type: 4
+    chance: 0.2
+    count: 1
+  - type: 2
+    chance: 0.12
+    count: 1

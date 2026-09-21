@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0b8654e27fe6340ae0350ff1a76f45, type: 3}
+  m_Name: BUF_Frenzy
+  m_EditorClassIdentifier: Assembly-CSharp::ZombieShooter.BuffDefinition
+  id: buff_frenzy
+  displayName: Adrenaline
+  description: Double fire rate for 8 seconds.
+  icon: {fileID: 0}
+  tint: {r: 0.45, g: 0.8, b: 1, a: 1}
+  isDebuff: 0
+  durationType: 1
+  duration: 8
+  maxStacks: 0
+  modifiers:
+  - stat: 4
+    op: 2
+    value: 2
+  - stat: 2
+    op: 2
+    value: 1.25
+  pairedCurse: {fileID: 0}
